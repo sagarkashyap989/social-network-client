@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import {deleteExperience} from "../../state/action-creator/profile"
 const Experience = ({experience, deleteExperience}) => {
 
-    const ExperienceComponent = experience.map((exp) =>{
+    const ExperienceComponent = experience && experience.map((exp) =>{
       return   (  
             <>
             <tr>
