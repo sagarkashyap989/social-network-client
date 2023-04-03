@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import {deleteEducation} from "../../state/action-creator/profile" 
 const Education = ({education, deleteEducation}) => {
 
-    const EducationComponent = deucation && education.map((edu) =>{
+    const EducationComponent = education && education.map((edu) =>{
       return   (  
             <>
             <tr>
